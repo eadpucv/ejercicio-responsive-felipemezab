@@ -1,18 +1,61 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
-  height: 50px;
+  padding: 20px;
+
 }
 .site-nav{
   background: rgba( 0, 255, 0, 0.15 );
 }
+
+.site-nav ul {
+  display: flex;
+  padding: 0px;
+  
+}
+
+.site-nav li {
+  border: 3px  dashed darkgrey;
+  padding: 15px;
+  list-style:  none;
+  width: 25%;
+}
+
 .site-main {
   background: #ffc;
+  padding: 100px;
+  
 }
+
+.main-section {
+  width: 100%;
+  padding: 20px;
+ 
+}
+
+
+
 .hentry {
   border: 2px dashed black;
-  margin: 1rem;
-  padding: 1rem;
-}
+  padding: 2rem;
+  width: 25%;
+
+
+  display: inline-block ;
+ 
+  }
+
 footer {
- background: rgba( 0, 0, 255, 0.15 ); 
+ background: rgba( 0, 0, 255, 0.15 );
+ padding: 15px;
+
 }
+
+.
