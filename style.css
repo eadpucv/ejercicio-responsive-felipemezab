@@ -1,18 +1,19 @@
-
-
 * {
   margin: 0;
   padding: 0;
 }
 
 
+
+
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
   padding: 20px;
-
+  margin: 1rem;
 }
 .site-nav{
   background: rgba( 0, 255, 0, 0.15 );
+  margin: 1rem;
 }
 
 .site-nav ul {
@@ -37,7 +38,8 @@
 .main-section {
   width: 100%;
   padding: 20px;
- 
+  justify-content: center;
+  margin: 2rem;
 }
 
 
@@ -46,10 +48,10 @@
   border: 2px dashed black;
   padding: 2rem;
   width: 25%;
-
-
+  height: 50px;
   display: inline-block ;
- 
+  margin-top: 1rem;
+  margin-bottom: 1rem;  
   }
 
 footer {
